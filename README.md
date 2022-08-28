@@ -5,7 +5,7 @@
 <!--- must match repository name -->
 <!--- REQUIRED -->
 
-#  
+#  API
 
 <!--- Banner -->
 <!--- OPTIONAL -->
@@ -24,14 +24,17 @@
 <!--- Must not have its own title -->
 <!--- Must be less than 120 characters -->
 <!--- Must match GitHub's description -->
-
+The Geek.Zone API specification. Used for communication between separate projects, e.g. Web and Mobile
 
 <!--- Long Description -->
 <!--- OPTIONAL -->
 <!--- Must not have its own title -->
 <!--- A detailed description of the repo -->
+This project contains the specification of the API only, no implementations.  The API is specified using 
+[OpenAPI v3.1.0](https://spec.openapis.org/oas/v3.1.0), which defines a standard, programming language-agnostic 
+interface description for HTTP APIs.
 
-## Table of Contents
+<!-- ## Table of Contents -->
 
 <!--- REQUIRED -->
 
@@ -47,7 +50,7 @@
 <!--- OPTIONAL -->
 <!--- Explain the motivation and abstract dependencies for this repo -->
 
-## Install
+<!-- ## Install -->
 
 <!--- Explain how to install the thing. -->
 <!--- OPTIONAL IF documentation repo -->
@@ -57,7 +60,9 @@
 
 <!--- REQUIRED -->
 <!--- Explain what the thing does. Use screenshots or videos. -->
-
+The OpenAPI specification can be used in tools such as [Postman](https://www.postman.com/) or [Swagger](https://swagger.io/)
+to document and mock the API during development.  It can also be used by other tools to automatically generate code,
+or to generate test suites for implementations of the API.
 
 <!-- Extra sections -->
 <!--- OPTIONAL -->
